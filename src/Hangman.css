@@ -1,0 +1,87 @@
+.Hangman {
+  width: 800px;
+  color: black;
+  text-align: center;
+  zoom: 1.3;
+}
+
+.Hangman img {
+  border: 10px solid white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.27),
+    0 0 40px rgba(0, 0, 0, 0.06) inset;
+}
+
+.Hangman h1 {
+  font-size: 4rem;
+  font-weight: 100;
+  margin-bottom: 0.1em;
+  margin-top: 0;
+}
+
+.Hangman-word {
+  letter-spacing: 1em;
+  font-size: 1.5rem;
+}
+
+.Hangman-btns {
+  text-align: center;
+  display: inline-block;
+  max-width: 300px;
+  margin-top: 0;
+}
+
+.Hangman button {
+  border: none;
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 30px;
+  margin: 5px 2px 2px 2px;
+  letter-spacing: 1px;
+  outline: none;
+  background: #ffc107;
+  color: #fff;
+  box-shadow: 0 6px #ff9800;
+  border-radius: 5px;
+  padding-top: 4px;
+  text-transform: uppercase;
+}
+
+.Hangman button:hover {
+  background-color: #ff9800;
+}
+
+.Hangman button:disabled {
+  background: #bdbdbd;
+  color: #eeeeee;
+  box-shadow: 0 6px #9e9e9e;
+  cursor: not-allowed;
+}
+
+.Hangman-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Hangman .reset {
+  display: block;
+  width: 50%;
+  margin: 2rem auto;
+  background-color: #e96900;
+}
+
+footer {
+  margin-top: 4rem;
+}
+@media screen and (max-width: 768px) {
+  .Hangman-flex {
+    display: block;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
