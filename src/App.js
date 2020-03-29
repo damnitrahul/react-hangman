@@ -6,7 +6,9 @@ class App extends Component {
   constructor(props) {
     super(props);
     console.log(
-      '%c 👋 Oh, Hi there, Web lover!',
+      `%c 
+      👋 Oh, Hi there, Curious web lover!
+      `,
       'color: #d74034; font-size:24px;'
     );
     console.log(
@@ -14,6 +16,8 @@ class App extends Component {
     ✨ Like what you see? We could work together!
       
     🐛 Found a bug? Please, let me know by e-mail, twitter, github issue...
+
+    🛠 Code available here: https://github.com/damnitrahul/react-hangman
       
     📬 Find me here: https://twitter.com/damnitrahul
       
