@@ -6,9 +6,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     console.log(
-      `%c 
-      👋 Oh, Hi there, Curious web lover!
-      `,
+      `%c👋 Oh, Hi there, Curious web lover!`,
       'color: #d74034; font-size:24px;'
     );
     console.log(
